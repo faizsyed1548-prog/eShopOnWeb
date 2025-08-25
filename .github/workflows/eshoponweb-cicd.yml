@@ -7,7 +7,6 @@ on: [push, workflow_dispatch]
 env:
   RESOURCE-GROUP: rg-eshoponweb-faizresources
   LOCATION: eastus
-  TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: 029c6814-f9e8-46e1-985c-5a0257233288
   WEBAPP-NAME: eshoponweb_webapp_faizullahsdevops
 
